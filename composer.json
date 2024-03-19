@@ -11,12 +11,18 @@
         "doctrine/doctrine-bundle": "^2.11",
         "doctrine/doctrine-migrations-bundle": "^3.3",
         "doctrine/orm": "^3.0",
+        "firebase/php-jwt": "*",
+        "hwi/oauth-bundle": "^2.2",
+        "lcobucci/jwt": "^5.2",
         "nelmio/cors-bundle": "^2.4",
+        "paragonie/sodium_compat": "*",
         "symfony/console": "7.0.*",
         "symfony/dotenv": "7.0.*",
         "symfony/flex": "^2",
         "symfony/framework-bundle": "7.0.*",
+        "symfony/rate-limiter": "7.0.*",
         "symfony/runtime": "7.0.*",
+        "symfony/security-bundle": "7.0.*",
         "symfony/yaml": "7.0.*"
     },
     "config": {
@@ -69,6 +75,8 @@
         }
     },
     "require-dev": {
-        "symfony/maker-bundle": "^1.55"
+        "symfony/maker-bundle": "^1.55",
+        "symfony/stopwatch": "7.0.*",
+        "symfony/web-profiler-bundle": "7.0.*"
     }
 }
